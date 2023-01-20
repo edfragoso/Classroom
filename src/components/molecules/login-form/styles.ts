@@ -27,11 +27,11 @@ export const StyledForm = styled.form`
     padding: 3px 5px;
     margin: 5px;
     border-radius: 5px;
-
     height: 35px;
-    background: ${(props) => props.theme.darkTheme.fg};
+    background-color: ${(props) => props.theme.darkTheme.fg};
     font-size: 1.2rem;
   }
+
   div {
     display: flex;
     flex-direction: row;
@@ -40,7 +40,8 @@ export const StyledForm = styled.form`
     border-radius: 5px;
     border: none;
     align-items: center;
-
+    
+    
     input {
       display: flex;
       width: 100%;
@@ -50,17 +51,17 @@ export const StyledForm = styled.form`
       margin: 0;
       height: 35px;
     }
+
     button {
       display: flex;
       align-items: center;
-
       border-left: none;
       padding: 0 5px;
       margin: 0;
       cursor: pointer;
       border-radius: 0 5px 5px 0;
       height: 35px;
-      background: ${(props) => props.theme.darkTheme.fg};
+      background-color: ${(props) => props.theme.darkTheme.fg};
     }
   }
   button {
